@@ -1,0 +1,62 @@
+.pagination-tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 0;
+    font-size: 20px;
+}
+
+.pagination-number {
+    padding: 10px 14px;
+    margin: 0 6px; /* Add margin to create space between numbers */
+    background-color: #8fff8f;
+    border: none;
+    cursor: pointer;
+    color: #333;
+    font-size: 20px;
+}
+
+.pagination-number:hover {
+    background-color: #e0e0e0;
+}
+
+.pagination-number:focus {
+    outline: none;
+}
+
+.pagination-number.active {
+    background-color: #4caf50;
+    color: white;
+}
+
+.country-list {
+    margin-top: 20px;
+    font-size: 22px;
+    border-radius: 5px;
+}
+
+.country-item {
+    background-color: limegreen;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+}
+
+.country-property {
+    margin-bottom: 6px;
+}
+
+.property-label {
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    width: 140px;
+    font-size: 20px;
+}
+
+.property-value {
+    color: white;
+    font-size: 20px;
+}
