@@ -22,7 +22,7 @@ const CountryList: React.FC = () => {
     const [filteredCountries, setFilteredCountries] = useState<Country[]>([]); // Stores countries data based on filters
     const [currentPage, setCurrentPage] = useState<number>(1); // Stores the current page number
     const [sortOrder, setSortOrder] = useState<'ascending' | 'descending'>('ascending'); // Stores the current sort order
-    const countriesPerPage: number = 20; // Number of countries to display per page
+    const countriesPerPage: number = 56; // Number of countries to display per page
 
     // Fetches country data from the API
     const fetchCountryData = async () => {
@@ -88,6 +88,9 @@ const CountryList: React.FC = () => {
 
     return (
         <div>
+            <h1 className="h1">REIZ TECH HOMEWORK ASSIGNMENT</h1>
+            <h2 className="h2">Country List</h2>
+
             <div className="pagination-tabs">
                 {/* Button to handle sorting */}
                 <button className="pagination-number" onClick={handleSort}>
