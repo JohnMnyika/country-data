@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Used https://restcountries.com free API to make a visualized representation of counties that displays the country name, region, and area size.
+
 
 ## Available Scripts
 
