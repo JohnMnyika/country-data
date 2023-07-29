@@ -2,6 +2,19 @@
 
 Used https://restcountries.com free API to make a visualized representation of counties that displays the country name, region, and area size.
 
+## Requirements
+
+• Fetch the data from the endpoint.
+• Display a list of the data.
+• Make the list sortable alphabetically by name (ascending, descending).
+• Implement a filter(s) that filters countries:
+- They are smaller than Lithuania by area.
+- That is in the “Oceania” region.
+
+# Bonus points
+• Use TypeScript
+• Implement pagination
+
 
 ## Available Scripts
 
